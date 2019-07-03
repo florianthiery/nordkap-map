@@ -5,10 +5,8 @@ var zoomLevel = 5;
 // initialize map
 var map = L.map('map').setView(coords, zoomLevel);
 // set source for map tiles
-ATTR = '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-    '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a> | ' +
-    '&copy; <a href="http://cartodb.com/attributions">CartoDB</a>';
-CDB_URL = 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
+ATTR = 'Tiles courtesy of <a href="http://openstreetmap.se/" target="_blank">OpenStreetMap Sweden</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+CDB_URL = 'https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png';
 // add tiles to map
 L.tileLayer(CDB_URL, {
     attribution: ATTR
