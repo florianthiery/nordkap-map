@@ -35,7 +35,7 @@ photoLayer.add(photos).addTo(map);
 
 L.geoJson(d1, {
     style: {
-        "color": "#ff7800",
+        "color": "blue",
         "weight": 3,
         "opacity": 0.95
     }
@@ -44,6 +44,14 @@ L.geoJson(d1, {
 L.geoJson(d2, {
     style: {
         "color": "red",
+        "weight": 3,
+        "opacity": 0.95
+    }
+}).addTo(map);
+
+L.geoJson(d3, {
+    style: {
+        "color": "blue",
         "weight": 3,
         "opacity": 0.95
     }
