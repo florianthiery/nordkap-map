@@ -69,7 +69,7 @@ L.geoJson(d4_1, {
 
 L.geoJson(d4_2, {
     style: {
-        "color": "red",
+        "color": "orange",
         "weight": 3,
         "opacity": 0.95,
         "dashArray": '10,10'
@@ -78,7 +78,7 @@ L.geoJson(d4_2, {
 
 L.geoJson(d4_3, {
     style: {
-        "color": "red",
+        "color": "orange",
         "weight": 3,
         "opacity": 0.95,
         "dashArray": '20,15'
@@ -96,6 +96,30 @@ L.geoJson(d4_4, {
 L.geoJson(d5, {
     style: {
         "color": "blue",
+        "weight": 3,
+        "opacity": 0.95
+    }
+}).addTo(map);
+
+L.geoJson(d6, {
+    style: {
+        "color": "red",
+        "weight": 3,
+        "opacity": 0.95
+    }
+}).addTo(map);
+
+L.geoJson(d7, {
+    style: {
+        "color": "blue",
+        "weight": 3,
+        "opacity": 0.95
+    }
+}).addTo(map);
+
+L.geoJson(d8, {
+    style: {
+        "color": "red",
         "weight": 3,
         "opacity": 0.95
     }
