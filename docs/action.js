@@ -56,3 +56,35 @@ L.geoJson(d3, {
         "opacity": 0.95
     }
 }).addTo(map);
+
+L.geoJson(d4_1, {
+    style: {
+        "color": "red",
+        "weight": 3,
+        "opacity": 0.95
+    }
+}).addTo(map);
+
+L.geoJson(d4_2, {
+    style: {
+        "color": "green",
+        "weight": 3,
+        "opacity": 0.95
+    }
+}).addTo(map);
+
+L.geoJson(d4_3, {
+    style: {
+        "color": "green",
+        "weight": 3,
+        "opacity": 0.95
+    }
+}).addTo(map);
+
+L.geoJson(d4_4, {
+    style: {
+        "color": "red",
+        "weight": 3,
+        "opacity": 0.95
+    }
+}).addTo(map);
