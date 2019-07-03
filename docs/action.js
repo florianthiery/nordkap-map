@@ -67,17 +67,19 @@ L.geoJson(d4_1, {
 
 L.geoJson(d4_2, {
     style: {
-        "color": "green",
+        "color": "red",
         "weight": 3,
-        "opacity": 0.95
+        "opacity": 0.95,
+        "dashArray": '10,10'
     }
 }).addTo(map);
 
 L.geoJson(d4_3, {
     style: {
-        "color": "green",
+        "color": "red",
         "weight": 3,
-        "opacity": 0.95
+        "opacity": 0.95,
+        "dashArray": '20,15'
     }
 }).addTo(map);
 
