@@ -5,8 +5,8 @@ var zoomLevel = 5;
 // initialize map
 var map = L.map('map').setView(coords, zoomLevel);
 // set source for map tiles
-ATTR = 'Tiles courtesy of <a href="http://openstreetmap.se/" target="_blank">OpenStreetMap Sweden</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-CDB_URL = 'https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png';
+ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+CDB_URL = 'https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png';
 // add tiles to map
 L.tileLayer(CDB_URL, {
     attribution: ATTR
@@ -45,6 +45,78 @@ var photos = [{
         "link": "https://my.hidrive.com/share/###",
         "url": "img/d2_2.jpg",
         "thumbnail": "img/d2_2.jpg"
+    },
+    {
+        "lat": 65.59472222,
+        "lng": 19.16944444,
+        "name": "Tag 2 - Arvidsjaur (SWE) - Kirche",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d2_3.jpg",
+        "thumbnail": "img/d2_3.jpg"
+    },
+    {
+        "lat": 65.59361111,
+        "lng": 19.17277778,
+        "name": "Tag 2 - Arvidsjaur (SWE) - Elch/Stadt",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d2_4.jpg",
+        "thumbnail": "img/d2_4.jpg"
+    },
+    {
+        "lat": 66.04555556,
+        "lng": 17.87138889,
+        "name": "Tag 2 - Arjeplog (SWE)",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d2_5.jpg",
+        "thumbnail": "img/d2_5.jpg"
+    },
+    {
+        "lat": 66.50250000,
+        "lng": 16.41444444,
+        "name": "Tag 2 - Schweden - Busfahrt",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d2_6.jpg",
+        "thumbnail": "img/d2_6.jpg"
+    },
+    {
+        "lat": 66.54805556,
+        "lng": 16.33444444,
+        "name": "Tag 2 - Polarkreis",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d2_7.jpg",
+        "thumbnail": "img/d2_7.jpg"
+    },
+    {
+        "lat": 66.67250000,
+        "lng": 16.12583333,
+        "name": "Tag 2 - Schweden - Busfahrt",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d2_8.jpg",
+        "thumbnail": "img/d2_8.jpg"
+    },
+    {
+        "lat": 66.75500000,
+        "lng": 15.83472222,
+        "name": "Tag 2 - Schweden/Norwegen - Grenze",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d2_9.jpg",
+        "thumbnail": "img/d2_9.jpg"
+    },
+    {
+        "lat": 66.81491340,
+        "lng": 15.43418190,
+        "name": "Tag 2 - Norwegen - Busfahrt",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d2_10.jpg",
+        "thumbnail": "img/d2_10.jpg"
+    },
+    {
+        "lat": 67.103660,
+        "lng": 15.391583,
+        "name": "Tag 2 - Rognan (NOR) - Rognan Hotell",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d2_11.jpg",
+        "thumbnail": "img/d2_11.jpg"
     }
 ];
 
