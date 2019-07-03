@@ -14,14 +14,16 @@ L.tileLayer(CDB_URL, {
     attribution: ATTR
 }).addTo(map);
 
-var photos = [{
+var photos = [];
+
+/*var photos = [{
     "lat": 63.825301,
     "lng": 20.263405,
     "name": "Tag 1 - Umea",
     "link": "http://florian-thiery.de",
     "url": "http://41.media.tumblr.com/8dd3cc5931650a6a772db77f6fad797b/tumblr_n5c7uw79Yn1tq6tdto1_400.jpg",
     "thumbnail": "http://40.media.tumblr.com/8dd3cc5931650a6a772db77f6fad797b/tumblr_n5c7uw79Yn1tq6tdto1_75sq.jpg"
-}];
+}];*/
 
 var photoLayer = L.photo.cluster().on('click', function(evt) {
     var photo = evt.layer.photo;
@@ -86,6 +88,14 @@ L.geoJson(d4_3, {
 L.geoJson(d4_4, {
     style: {
         "color": "red",
+        "weight": 3,
+        "opacity": 0.95
+    }
+}).addTo(map);
+
+L.geoJson(d5, {
+    style: {
+        "color": "blue",
         "weight": 3,
         "opacity": 0.95
     }
