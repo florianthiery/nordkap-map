@@ -12,16 +12,41 @@ L.tileLayer(CDB_URL, {
     attribution: ATTR
 }).addTo(map);
 
-var photos = [];
+//var photos = [];
 
-/*var photos = [{
-    "lat": 63.825301,
-    "lng": 20.263405,
-    "name": "Tag 1 - Umea",
-    "link": "http://florian-thiery.de",
-    "url": "http://41.media.tumblr.com/8dd3cc5931650a6a772db77f6fad797b/tumblr_n5c7uw79Yn1tq6tdto1_400.jpg",
-    "thumbnail": "http://40.media.tumblr.com/8dd3cc5931650a6a772db77f6fad797b/tumblr_n5c7uw79Yn1tq6tdto1_75sq.jpg"
-}];*/
+var photos = [{
+        "lat": 63.793483,
+        "lng": 20.290592,
+        "name": "Tag 1 - Umeå (SWE)- Ankunft",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d1_1.jpg",
+        "thumbnail": "img/d1_1.jpg"
+    },
+    {
+        "lat": 64.592043,
+        "lng": 18.692441,
+        "name": "Tag 1 - Lycksele (SWE) - Hotell Lappland",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d1_2.jpg",
+        "thumbnail": "img/d1_2.jpg"
+    },
+    {
+        "lat": 65.051316,
+        "lng": 19.410492,
+        "name": "Tag 2 - Schweden - Busfahrt",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d2_1.jpg",
+        "thumbnail": "img/d2_1.jpg"
+    },
+    {
+        "lat": 65.59444444,
+        "lng": 19.17000000,
+        "name": "Tag 2 - Arvidsjaur (SWE) - Lappstaden",
+        "link": "https://my.hidrive.com/share/###",
+        "url": "img/d2_2.jpg",
+        "thumbnail": "img/d2_2.jpg"
+    }
+];
 
 var photoLayer = L.photo.cluster().on('click', function(evt) {
     var photo = evt.layer.photo;
