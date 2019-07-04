@@ -319,6 +319,70 @@ var photos = [{
         "link": link_d6,
         "url": "img/d6_5.jpg",
         "thumbnail": "img/d6_5.jpg"
+    },
+    {
+        "lat": 67.74000000,
+        "lng": 26.76083333,
+        "name": "Tag 7 - Cafe Harianna (FIN)",
+        "link": link_d7,
+        "url": "img/d7_1.jpg",
+        "thumbnail": "img/d7_1.jpg"
+    },
+    {
+        "lat": 66.54361111,
+        "lng": 25.84666667,
+        "name": "Tag 7 - Rovaniemi (FIN) - Weihnachtsmanndorf",
+        "link": link_d7,
+        "url": "img/d7_2.jpg",
+        "thumbnail": "img/d7_2.jpg"
+    },
+    {
+        "lat": 65.83777778,
+        "lng": 24.23416667,
+        "name": "Tag 7 - Finnland - Busfahrt",
+        "link": link_d7,
+        "url": "img/d7_3.jpg",
+        "thumbnail": "img/d7_3.jpg"
+    },
+    {
+        "lat": 65.84138889,
+        "lng": 24.14611111,
+        "name": "Tag 7 - Finnland/Schweden - Grenze",
+        "link": link_d7,
+        "url": "img/d7_4.jpg",
+        "thumbnail": "img/d7_4.jpg"
+    },
+    {
+        "lat": 64.06583333,
+        "lng": 20.84972222,
+        "name": "Tag 7 - Schweden - Busfahrt",
+        "link": link_d7,
+        "url": "img/d7_5.jpg",
+        "thumbnail": "img/d7_5.jpg"
+    },
+    {
+        "lat": 65.645732,
+        "lng": 22.028160,
+        "name": "Tag 7 - Luleå (SWE) - Gammelstad",
+        "link": link_d7,
+        "url": "img/d7_6.jpg",
+        "thumbnail": "img/d7_6.jpg"
+    },
+    {
+        "lat": 63.81674430,
+        "lng": 20.25228940,
+        "name": "Tag 7 - Umeå (SWE) - Scandic Syd",
+        "link": link_d7,
+        "url": "img/d7_7.jpg",
+        "thumbnail": "img/d7_7.jpg"
+    },
+    {
+        "lat": 63.793483,
+        "lng": 20.290592,
+        "name": "Tag 1 - Umeå (SWE)- Abflug",
+        "link": link_d8,
+        "url": "img/d8_1.jpg",
+        "thumbnail": "img/d8_1.jpg"
     }
 ];
 
