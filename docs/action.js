@@ -230,7 +230,7 @@ var photos = [{
         "name": "Tag 5 - Breivikeidet/Svensby (NOR) - Fährfahrt",
         "link": link_d5,
         "url": "img/d5_1.jpg",
-        "thumbnail": "img/d4_1.jpg"
+        "thumbnail": "img/d5_1.jpg"
     },
     {
         "lat": 69.58416667,
@@ -238,7 +238,7 @@ var photos = [{
         "name": "Tag 5 - Lyngseidet/Olderdalen (NOR) - Fährfahrt",
         "link": link_d5,
         "url": "img/d5_2.jpg",
-        "thumbnail": "img/d4_2.jpg"
+        "thumbnail": "img/d5_2.jpg"
     },
     {
         "lat": 69.89861111,
@@ -246,7 +246,7 @@ var photos = [{
         "name": "Tag 5 - Kvænangsfjell (NOR) - Gildetun",
         "link": link_d5,
         "url": "img/d5_3.jpg",
-        "thumbnail": "img/d4_3.jpg"
+        "thumbnail": "img/d5_3.jpg"
     },
     {
         "lat": 69.95000000,
@@ -254,7 +254,7 @@ var photos = [{
         "name": "Tag 5 - Alta (NOR) - Museum (World Heritage Rock Art Centre)",
         "link": link_d5,
         "url": "img/d5_4.jpg",
-        "thumbnail": "img/d4_4.jpg"
+        "thumbnail": "img/d5_4.jpg"
     },
     {
         "lat": 69.96500000,
@@ -262,7 +262,7 @@ var photos = [{
         "name": "Tag 5 - Alta (NOR) - Nordlichtkathedrale",
         "link": link_d5,
         "url": "img/d5_5.jpg",
-        "thumbnail": "img/d4_5.jpg"
+        "thumbnail": "img/d5_5.jpg"
     },
     {
         "lat": 70.98273410,
@@ -270,7 +270,7 @@ var photos = [{
         "name": "Tag 5 - Honningsvåg (NOR) - Magerøya/Nordkap",
         "link": link_d5,
         "url": "img/d5_6.jpg",
-        "thumbnail": "img/d4_6.jpg"
+        "thumbnail": "img/d5_6.jpg"
     },
     {
         "lat": 71.17101,
@@ -278,7 +278,47 @@ var photos = [{
         "name": "Tag 5 - Nordkap/Magerøya (NOR)",
         "link": link_d5,
         "url": "img/d5_7.jpg",
-        "thumbnail": "img/d4_7.jpg"
+        "thumbnail": "img/d5_7.jpg"
+    },
+    {
+        "lat": 70.69694444,
+        "lng": 25.50750000,
+        "name": "Tag 6 - Finnland - Busfahrt",
+        "link": link_d6,
+        "url": "img/d6_1.jpg",
+        "thumbnail": "img/d6_1.jpg"
+    },
+    {
+        "lat": 69.39833333,
+        "lng": 25.84166667,
+        "name": "Tag 6 - Norwegen/Finnland - Grenze",
+        "link": link_d6,
+        "url": "img/d6_2.jpg",
+        "thumbnail": "img/d6_2.jpg"
+    },
+    {
+        "lat": 68.82611111,
+        "lng": 26.77500000,
+        "name": "Tag 6 - Inari (FIN) - Inarin Porofarmi",
+        "link": link_d6,
+        "url": "img/d6_3.jpg",
+        "thumbnail": "img/d6_3.jpg"
+    },
+    {
+        "lat": 68.91083333,
+        "lng": 27.01416667,
+        "name": "Tag 6 - Inari (FIN) - Siida Samen-Museum und Naturzentrum",
+        "link": link_d6,
+        "url": "img/d6_4.jpg",
+        "thumbnail": "img/d6_4.jpg"
+    },
+    {
+        "lat": 68.42143530,
+        "lng": 27.42574350,
+        "name": "Tag 6 - Saariselkä (FIN) - Lapland Hotel Riekonlinna",
+        "link": link_d6,
+        "url": "img/d6_5.jpg",
+        "thumbnail": "img/d6_5.jpg"
     }
 ];
 
