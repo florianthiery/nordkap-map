@@ -1,18 +1,15 @@
-// set center coordinates
-var coords = [67.7898109, 22.30581];
-// set default zoom level
-var zoomLevel = 5;
 // initialize map
+
+var coords = [67.7898109, 22.30581];
+var zoomLevel = 5;
 var map = L.map('map').setView(coords, zoomLevel);
-// set source for map tiles
 ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 CDB_URL = 'https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png';
-// add tiles to map
 L.tileLayer(CDB_URL, {
     attribution: ATTR
 }).addTo(map);
 
-//var photos = [];
+// links to galleries
 
 var link_d1 = "https://sharegallery.strato.com/u/gYcLdOAb/pxfSiPgH#nordkap-2019-tag-1/photos/fluid";
 var link_d2 = "https://sharegallery.strato.com/u/gYcLdOAb/WGSSLmWS#nordkap-2019-tag-2/photos/fluid";
@@ -22,6 +19,8 @@ var link_d5 = "https://sharegallery.strato.com/u/gYcLdOAb/oinfBIWh#nordkap-2019-
 var link_d6 = "https://sharegallery.strato.com/u/gYcLdOAb/9wgoKqj6#nordkap-2019-tag-6/photos/fluid";
 var link_d7 = "https://sharegallery.strato.com/u/gYcLdOAb/CWU6Fz_T#nordkap-2019-tag-7/photos/fluid";
 var link_d8 = "https://sharegallery.strato.com/u/gYcLdOAb/IKmiU_WE#nordkap-2019-tag-8/photos/fluid";
+
+// photo place marks
 
 var photos = [{
         "lat": 63.793483,
@@ -394,6 +393,8 @@ var photoLayer = L.photo.cluster().on('click', function(evt) {
 });
 
 photoLayer.add(photos).addTo(map);
+
+// routes per day
 
 L.geoJson(d1, {
     style: {
