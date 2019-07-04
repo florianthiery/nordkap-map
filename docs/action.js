@@ -183,6 +183,46 @@ var photos = [{
         "link": link_d3,
         "url": "img/d3_7.jpg",
         "thumbnail": "img/d3_7.jpg"
+    },
+    {
+        "lat": 68.79888889,
+        "lng": 16.54861111,
+        "name": "Tag 4 - Harstad (NOR) - Hurtigruten",
+        "link": link_d4,
+        "url": "img/d4_1.jpg",
+        "thumbnail": "img/d4_1.jpg"
+    },
+    {
+        "lat": 69.07900840,
+        "lng": 17.40014950,
+        "name": "Tag 4 - Harstad/Tromsø (NOR) - Hurtigruten",
+        "link": link_d4,
+        "url": "img/d4_2.jpg",
+        "thumbnail": "img/d4_2.jpg"
+    },
+    {
+        "lat": 69.64805556,
+        "lng": 18.98750000,
+        "name": "Tag 4 - Tromsø (NOR) - Eismeerkathedrale",
+        "link": link_d4,
+        "url": "img/d4_3.jpg",
+        "thumbnail": "img/d4_3.jpg"
+    },
+    {
+        "lat": 69.63583333,
+        "lng": 18.99583333,
+        "name": "Tag 4 - Tromsø (NOR) - Fjellheisen",
+        "link": link_d4,
+        "url": "img/d4_4.jpg",
+        "thumbnail": "img/d4_4.jpg"
+    },
+    {
+        "lat": 69.64583333,
+        "lng": 18.95027778,
+        "name": "Tag 4 - Tromsø (NOR) - Ølhallen (Mack)",
+        "link": link_d4,
+        "url": "img/d4_5.jpg",
+        "thumbnail": "img/d4_5.jpg"
     }
 ];
 
