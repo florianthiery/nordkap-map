@@ -223,6 +223,62 @@ var photos = [{
         "link": link_d4,
         "url": "img/d4_5.jpg",
         "thumbnail": "img/d4_5.jpg"
+    },
+    {
+        "lat": 69.66833333,
+        "lng": 19.67916667,
+        "name": "Tag 5 - Breivikeidet/Svensby (NOR) - Fährfahrt",
+        "link": link_d5,
+        "url": "img/d5_1.jpg",
+        "thumbnail": "img/d4_1.jpg"
+    },
+    {
+        "lat": 69.58416667,
+        "lng": 20.35083333,
+        "name": "Tag 5 - Lyngseidet/Olderdalen (NOR) - Fährfahrt",
+        "link": link_d5,
+        "url": "img/d5_2.jpg",
+        "thumbnail": "img/d4_2.jpg"
+    },
+    {
+        "lat": 69.89861111,
+        "lng": 21.60416667,
+        "name": "Tag 5 - Kvænangsfjell (NOR) - Gildetun",
+        "link": link_d5,
+        "url": "img/d5_3.jpg",
+        "thumbnail": "img/d4_3.jpg"
+    },
+    {
+        "lat": 69.95000000,
+        "lng": 23.19166667,
+        "name": "Tag 5 - Alta (NOR) - Museum (World Heritage Rock Art Centre)",
+        "link": link_d5,
+        "url": "img/d5_4.jpg",
+        "thumbnail": "img/d4_4.jpg"
+    },
+    {
+        "lat": 69.96500000,
+        "lng": 23.26777778,
+        "name": "Tag 5 - Alta (NOR) - Nordlichtkathedrale",
+        "link": link_d5,
+        "url": "img/d5_5.jpg",
+        "thumbnail": "img/d4_5.jpg"
+    },
+    {
+        "lat": 70.98273410,
+        "lng": 25.96903960,
+        "name": "Tag 5 - Honningsvåg (NOR) - Magerøya/Nordkap",
+        "link": link_d5,
+        "url": "img/d5_6.jpg",
+        "thumbnail": "img/d4_6.jpg"
+    },
+    {
+        "lat": 71.17101,
+        "lng": 25.78308,
+        "name": "Tag 5 - Nordkap/Magerøya (NOR)",
+        "link": link_d5,
+        "url": "img/d5_7.jpg",
+        "thumbnail": "img/d4_7.jpg"
     }
 ];
 
