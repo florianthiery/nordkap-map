@@ -19,9 +19,9 @@ var link_d2 = "https://sharegallery.strato.com/u/gYcLdOAb/WGSSLmWS#nordkap-2019-
 var link_d3 = "https://sharegallery.strato.com/u/gYcLdOAb/U9spQD9f#nordkap-2019-tag-3/photos/fluid";
 var link_d4 = "https://sharegallery.strato.com/u/gYcLdOAb/oGGfm0ie#nordkap-2019-tag-4/photos/fluid";
 var link_d5 = "https://sharegallery.strato.com/u/gYcLdOAb/oinfBIWh#nordkap-2019-tag-5/photos/fluid";
-var link_d6 = "";
-var link_d7 = "";
-var link_d8 = "";
+var link_d6 = "https://sharegallery.strato.com/u/gYcLdOAb/9wgoKqj6#nordkap-2019-tag-6/photos/fluid";
+var link_d7 = "https://sharegallery.strato.com/u/gYcLdOAb/CWU6Fz_T#nordkap-2019-tag-7/photos/fluid";
+var link_d8 = "https://sharegallery.strato.com/u/gYcLdOAb/IKmiU_WE#nordkap-2019-tag-8/photos/fluid";
 
 var photos = [{
         "lat": 63.793483,
