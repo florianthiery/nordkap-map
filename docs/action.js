@@ -14,7 +14,7 @@ L.tileLayer(CDB_URL, {
 
 //var photos = [];
 
-var link_d1 = "https://my.hidrive.com/share/###";
+var link_d1 = "https://sharegallery.strato.com/u/gYcLdOAb/pxfSiPgH#nordkap-2019-tag-1/photos/fluid";
 var link_d2 = "https://my.hidrive.com/share/###";
 var link_d3 = "https://my.hidrive.com/share/###";
 var link_d4 = "https://my.hidrive.com/share/###";
@@ -401,6 +401,11 @@ L.geoJson(d1, {
         "color": "blue",
         "weight": 3,
         "opacity": 0.95
+    },
+    onEachFeature: function(feature, featureLayer) {
+        featureLayer.on('click', function(e) {
+            window.open(link_d1, '_blank');
+        });
     }
 }).addTo(map);
 
@@ -409,6 +414,11 @@ L.geoJson(d2, {
         "color": "red",
         "weight": 3,
         "opacity": 0.95
+    },
+    onEachFeature: function(feature, featureLayer) {
+        featureLayer.on('click', function(e) {
+            window.open(link_d2, '_blank');
+        });
     }
 }).addTo(map);
 
@@ -417,6 +427,11 @@ L.geoJson(d3, {
         "color": "blue",
         "weight": 3,
         "opacity": 0.95
+    },
+    onEachFeature: function(feature, featureLayer) {
+        featureLayer.on('click', function(e) {
+            window.open(link_d3, '_blank');
+        });
     }
 }).addTo(map);
 
@@ -425,6 +440,11 @@ L.geoJson(d4_1, {
         "color": "red",
         "weight": 3,
         "opacity": 0.95
+    },
+    onEachFeature: function(feature, featureLayer) {
+        featureLayer.on('click', function(e) {
+            window.open(link_d4, '_blank');
+        });
     }
 }).addTo(map);
 
@@ -434,6 +454,11 @@ L.geoJson(d4_2, {
         "weight": 3,
         "opacity": 0.95,
         "dashArray": '10,10'
+    },
+    onEachFeature: function(feature, featureLayer) {
+        featureLayer.on('click', function(e) {
+            window.open(link_d4, '_blank');
+        });
     }
 }).addTo(map);
 
@@ -443,6 +468,11 @@ L.geoJson(d4_3, {
         "weight": 3,
         "opacity": 0.95,
         "dashArray": '20,15'
+    },
+    onEachFeature: function(feature, featureLayer) {
+        featureLayer.on('click', function(e) {
+            window.open(link_d4, '_blank');
+        });
     }
 }).addTo(map);
 
@@ -451,6 +481,11 @@ L.geoJson(d4_4, {
         "color": "red",
         "weight": 3,
         "opacity": 0.95
+    },
+    onEachFeature: function(feature, featureLayer) {
+        featureLayer.on('click', function(e) {
+            window.open(link_d4, '_blank');
+        });
     }
 }).addTo(map);
 
@@ -459,6 +494,11 @@ L.geoJson(d5, {
         "color": "blue",
         "weight": 3,
         "opacity": 0.95
+    },
+    onEachFeature: function(feature, featureLayer) {
+        featureLayer.on('click', function(e) {
+            window.open(link_d5, '_blank');
+        });
     }
 }).addTo(map);
 
@@ -467,6 +507,11 @@ L.geoJson(d6, {
         "color": "red",
         "weight": 3,
         "opacity": 0.95
+    },
+    onEachFeature: function(feature, featureLayer) {
+        featureLayer.on('click', function(e) {
+            window.open(link_d6, '_blank');
+        });
     }
 }).addTo(map);
 
@@ -475,6 +520,11 @@ L.geoJson(d7, {
         "color": "blue",
         "weight": 3,
         "opacity": 0.95
+    },
+    onEachFeature: function(feature, featureLayer) {
+        featureLayer.on('click', function(e) {
+            window.open(link_d7, '_blank');
+        });
     }
 }).addTo(map);
 
@@ -483,5 +533,10 @@ L.geoJson(d8, {
         "color": "red",
         "weight": 3,
         "opacity": 0.95
+    },
+    onEachFeature: function(feature, featureLayer) {
+        featureLayer.on('click', function(e) {
+            window.open(link_d8, '_blank');
+        });
     }
 }).addTo(map);
