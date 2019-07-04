@@ -127,6 +127,62 @@ var photos = [{
         "link": link_d2,
         "url": "img/d2_11.jpg",
         "thumbnail": "img/d2_11.jpg"
+    },
+    {
+        "lat": 67.57916667,
+        "lng": 15.88888889,
+        "name": "Tag 3 - Sørfold (NOR) - Kobbelv",
+        "link": link_d3,
+        "url": "img/d3_1.jpg",
+        "thumbnail": "img/d3_1.jpg"
+    },
+    {
+        "lat": 68.10805556,
+        "lng": 15.88611111,
+        "name": "Tag 3 - Norwegen - Busfahrt",
+        "link": link_d3,
+        "url": "img/d3_2.jpg",
+        "thumbnail": "img/d3_2.jpg"
+    },
+    {
+        "lat": 68.29861111,
+        "lng": 16.02388889,
+        "name": "Tag 3 - Bognes/Lødingen (NOR) - Fährfahrt",
+        "link": link_d3,
+        "url": "img/d3_3.jpg",
+        "thumbnail": "img/d3_3.jpg"
+    },
+    {
+        "lat": 68.23222222,
+        "lng": 14.56666667,
+        "name": "Tag 3 - Svolvær (NOR) - Lofoten",
+        "link": link_d3,
+        "url": "img/d3_4.jpg",
+        "thumbnail": "img/d3_4.jpg"
+    },
+    {
+        "lat": 68.20750000,
+        "lng": 14.23500000,
+        "name": "Tag 3 - Lofoten (NOR)",
+        "link": link_d3,
+        "url": "img/d3_5.jpg",
+        "thumbnail": "img/d3_5.jpg"
+    },
+    {
+        "lat": 68.15444444,
+        "lng": 14.20222222,
+        "name": "Tag 3 - Henningsvær (NOR) - Lofoten",
+        "link": link_d3,
+        "url": "img/d3_6.jpg",
+        "thumbnail": "img/d3_6.jpg"
+    },
+    {
+        "lat": 68.80089250,
+        "lng": 16.54008410,
+        "name": "Tag 3 - Harstad (NOR) - Scandic Harstad",
+        "link": link_d3,
+        "url": "img/d3_7.jpg",
+        "thumbnail": "img/d3_7.jpg"
     }
 ];
 
