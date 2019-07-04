@@ -17,7 +17,7 @@ L.tileLayer(CDB_URL, {
 var link_d1 = "https://sharegallery.strato.com/u/gYcLdOAb/pxfSiPgH#nordkap-2019-tag-1/photos/fluid";
 var link_d2 = "https://sharegallery.strato.com/u/gYcLdOAb/WGSSLmWS#nordkap-2019-tag-2/photos/fluid";
 var link_d3 = "https://sharegallery.strato.com/u/gYcLdOAb/U9spQD9f#nordkap-2019-tag-3/photos/fluid";
-var link_d4 = "https://my.hidrive.com/share/###";
+var link_d4 = "https://sharegallery.strato.com/u/gYcLdOAb/oGGfm0ie#nordkap-2019-tag-4/photos/fluid";
 var link_d5 = "https://my.hidrive.com/share/###";
 var link_d6 = "https://my.hidrive.com/share/###";
 var link_d7 = "https://my.hidrive.com/share/###";
